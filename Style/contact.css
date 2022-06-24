@@ -1,0 +1,55 @@
+@import url("/import/body.css");
+@import url("/import/box.css");
+
+/* Top Navigation*/
+.navbar {
+	width: 100%;
+	background-color: black;
+	overflow: auto;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: lightblue;
+}
+
+/* form */
+
+input[type="text"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 5px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[class="submit"] {
+	background-color: black;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[class="submit"]:hover {
+	background-color: lightblue;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #eee;
+	padding: 20px;
+}
